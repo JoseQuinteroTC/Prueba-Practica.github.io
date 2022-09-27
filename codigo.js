@@ -1,0 +1,14 @@
+const contenidoExpectativas =document.getElementById("seccion2");
+
+contenidoExpectativas.insertAdjacentHTML(
+    "beforeend",
+    "<h2 class='desaparecer'>experiencias</h2> <ul class='margenS2'> <li class='li'> <h4 class='subtitulo'>Ambito Laboral</h4> <p class='parrafo'> Al entrar a este proyecto y conseguir el cupo tengo expectativas a lo que se refiere ampliar mis conocimientos sobre lo que seria un campo mas serio de la programacion y el diseño web. Como nos comentaron en la reunion, esto no sera como los trabajos o tareas a lo que estamoms acostumbrados. Teniendo una vista mucho mas real al campo laboral aprendiendo de experiencias reales con expertos en el campo. </p> <a href='https://schmitman.com/como-responder-por-que-deberiamos-contratarte/' target='_blank' class='parrafo' ><button type='submit' class='borde'> Informacion Adicional </button></a > </li> <br /> <li class='li'> <h4 class='subtitulo'>Conocimientos</h4> <p class='parrafo'> En el momento en el que me propuse intentar entrar al proyecto lo primero en lo que pense fue que esto me ayudara a aprender mucho mas del desarrollo web desde un ambito mas profecional del Htlm, Css Y JavaScript. </p> <a href='https://curriculumytrabajo.com/por-que-deberiamos-contratarte/' target='_blank' class='sinlinea parrafo' ><button type='submit' class='borde'> Informacion Adicional </button></a > </li> <br /> <li class='li'> <h4 class='subtitulo'>Experiencia</h4> <p class='parrafo'> Una de las claves mas importantes en casi todo es la experiencia que se tenga en los distintos campos y claro que espero sumar mucha experiencia con este proyecto. Sumando conocimientos y vivencias a mi persona en un area que podria desenvolverme de manera profecional en un futuro. </p> <a href='https://businessinsider.mx/por-que-deberiamos-contratarte-4-trucos-respuesta_estrategia/' target='_blank' class='sinlinea parrafo' ><button type='submit' class='borde'> Informacion Adicional </button></a > </li> <br /> <br /> </ul>"
+
+    );
+
+    const contenidoHabilidades =document.getElementById("seccion3");
+
+contenidoExpectativas.insertAdjacentHTML(
+    "beforeend",
+    "<h2 class='desaparecer'>Habilidades</h2> <table> <tr> <td class='fondo'></td> <td class='fondo'>Valor</td> </tr> <tr> <td class='fondo'>Html</td><td class='fondo2'>8</td> </tr> <tr> <td class='fondo'>Css</td> <td class='fondo2'>7</td> </tr> <tr> <td class='fondo'>Java</td> <td class='fondo2'>8</td> </tr> <tr> <td class='fondo'>JavaScript</td> <td class='fondo2'>6</td> </tr> <tr> <td class='fondo'>PostgresSQL</td> <td class='fondo2'>8</td> </tr> </table>"
+    );
